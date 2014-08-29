@@ -18,6 +18,11 @@ while (args.length) {
       cli.serve()
       break;
 
+    case 'u':
+    case 'uplaod':
+      cli.upload(args.shift())
+      break;
+
     default:
       console.log(arg)
   }
