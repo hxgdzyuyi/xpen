@@ -13,6 +13,11 @@ while (args.length) {
       cli.init(args.shift())
       break;
 
+    case 'f':
+    case 'fetch':
+      cli.fetch(args.shift())
+      break;
+
     case 's':
     case 'serve':
       cli.serve()
