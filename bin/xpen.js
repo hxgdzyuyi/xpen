@@ -27,12 +27,6 @@ switch(arg) {
     cli.fetch(args.shift())
     break;
 
-  case 'h':
-  case 'help':
-    console.error(usage)
-    process.exit(1)
-    break;
-
   case 's':
   case 'serve':
     cli.serve(args)
@@ -43,6 +37,9 @@ switch(arg) {
     cli.upload(args.shift())
     break;
 
+  case 'h':
+  case 'help':
   default:
+    console.error(usage)
     process.exit(1)
 }
