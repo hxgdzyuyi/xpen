@@ -39,7 +39,7 @@ switch(arg) {
     break;
 
   case 'u':
-  case 'uplaod':
+  case 'upload':
     cli.upload(args.shift())
     break;
 
