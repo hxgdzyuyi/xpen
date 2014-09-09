@@ -19,7 +19,7 @@ arg = args.shift()
 switch(arg) {
   case 'i':
   case 'init':
-    cli.init(args.shift())
+    cli.init(args)
     break;
 
   case 'f':
