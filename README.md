@@ -55,9 +55,7 @@ XPen 致力于可以在本地编辑 js html css，最后上传到 codepen.io 等
 http://codepen.io/anon/pen/hqyuC
 
 
----
-
-目前支持的情况
+### 目前支持的情况
 
 - html 预处理: html, jade
 - js 预处理: js
