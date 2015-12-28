@@ -18,13 +18,13 @@
     "connect": "~3.1.0",
     "serve-static": "~1.5.0",
     "inquirer": "~0.7.1",
-    "node-sass": "~0.9.3",
+    "node-sass": "^3.4.2",
     "jade": "~1.6.0"
   },
   "devDependencies": {
-    "should": "~2.1.1",
-    "grunt-bump": "0.0.11",
     "grunt": "~0.4.2",
-    "grunt-mocha-cli": "~1.5.0"
+    "grunt-bump": "0.0.11",
+    "grunt-mocha-cli": "~1.5.0",
+    "should": "~2.1.1"
   }
 }
